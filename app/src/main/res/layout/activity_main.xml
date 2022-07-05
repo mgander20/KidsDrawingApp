@@ -69,6 +69,39 @@
         app:layout_constraintTop_toBottomOf="@id/llPaintColors"
         >
 
+        <ImageButton
+            android:id="@+id/ibGallery"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/gallery"
+            android:scaleType="fitXY"
+            />
+        <ImageButton
+            android:id="@+id/ibUndo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/undo"
+            android:scaleType="fitXY"
+            />
+        <ImageButton
+            android:id="@+id/ibBrush"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/brush"
+            android:scaleType="fitXY"
+            />
+        <ImageButton
+            android:id="@+id/ibSave"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/save"
+            android:scaleType="fitXY"
+            />
+        
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

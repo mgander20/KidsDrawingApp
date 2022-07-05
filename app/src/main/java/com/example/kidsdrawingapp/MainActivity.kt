@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     private var mImageButtonCurrentPaint: ImageButton? = null
     private var customProgressDialog : Dialog? = null
 
-    val openGalleryLauncher: ActivityResultLauncher<Intent> =
+    private val openGalleryLauncher: ActivityResultLauncher<Intent> =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()){
             result ->
             if(result.resultCode == RESULT_OK && result.data != null){
